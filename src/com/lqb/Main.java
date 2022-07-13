@@ -26,21 +26,12 @@ public class Main {
         list.add("cccc");
         list.add("dddd");
         list.add("eeee");
-//        System.out.println(list);
+        System.out.println(list);
 
 //        for (String o:
 //             list) {
 //            System.out.println(o);
 //        }
-        ArrayList<Object> objects = new ArrayList<>();
-        for (Iterator<String> it = list.iterator(); it.hasNext(); it.next()){
-//            System.out.println(it.next());
-//            String str = it.next();
-//            System.out.println(it);
-//            System.out.println(str);
-
-        }
-
         StringBuffer str = new StringBuffer();
         str.append(5);
         str.append('s');
