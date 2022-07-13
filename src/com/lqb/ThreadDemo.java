@@ -35,7 +35,7 @@ public class ThreadDemo {
 
         @Override
         public void run() {
-
+            System.out.println("run thread");
         }
     }
 }
