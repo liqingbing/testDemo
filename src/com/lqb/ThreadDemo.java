@@ -11,7 +11,7 @@ public class ThreadDemo {
         new Thread(new Runnable() {
             @Override
             public void run() {
-
+                System.out.println("Runnable");
             }
         }).start();
     }
